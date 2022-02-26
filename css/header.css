@@ -83,10 +83,19 @@
     font-weight: bold;
 }
 
-section:nth-child(3) img {
+#service img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+#tudnivalok{
+    display: flex;
+    justify-content: center;
+}
+
+.tudnicontainer{
+    width: 50%;
 }
 
 header {
@@ -128,6 +137,12 @@ section a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 783px){
+    .tudnicontainer{
+        width: 80%;
+    }
 }
 
 @media (max-width: 630px) {
@@ -205,5 +220,11 @@ section a:hover {
     .bottombox p span {
         text-transform: uppercase;
         font-weight: bold;
+    }
+}
+
+@media (max-width: 576px){
+    .tudnicontainer{
+        width: 90%;
     }
 }

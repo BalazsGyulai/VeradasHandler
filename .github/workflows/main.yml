@@ -24,7 +24,7 @@ jobs:
 
       with:
 
-        server: ftp://domainregisztraciokft.hu/gyulaibalazs.hu/teszt/
+        server: ftp://domainregisztraciokft.hu:21/gyulaibalazs.hu/teszt/
 
         username: gyulaibalazs
 

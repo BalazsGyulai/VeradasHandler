@@ -24,8 +24,8 @@ jobs:
 
       with:
 
-        server: ftp.samkirkland.com
+        server: ftp://domainregisztraciokft.hu/gyulaibalazs.hu/teszt/
 
-        username: myFtpUserName
+        username: gyulaibalazs
 
         password: ${{ secrets.ftp_password }}
